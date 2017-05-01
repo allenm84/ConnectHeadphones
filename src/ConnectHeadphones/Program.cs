@@ -14,9 +14,9 @@ namespace ConnectHeadphones
       bool succeed = false;
       for (int attempts = 0; !succeed && attempts < 10; ++attempts)
       {
-        try 
-        { 
-          Bluetooth.Connect("D09C3001A200");
+        try
+        {
+          Bluetooth.Connect("00180926D2D6");
           succeed = true;
           Console.WriteLine("Success!");
         }
